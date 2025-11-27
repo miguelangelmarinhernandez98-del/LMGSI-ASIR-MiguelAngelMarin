@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nelson Mandela - Diseño Amarillo y Negro</title>
+    <style>
+        /* CSS Interno para la estructura y colores principales */
+        body {
+            background-color: #ffff00; /* Fondo amarillo */
+            color: black;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        main {
+            width: 800px;
+            background-color: black; /* Contenido principal negro */
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            color: white; /* Texto blanco por defecto en el main */
+        }
+
+        .main-header {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            border-bottom: 5px solid yellow;
+        }
+
+        .main-header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        .seccion h2 {
+            color: yellow; /* Títulos en amarillo */
+            border-bottom: 2px solid white;
+            padding-bottom: 5px;
+            margin-top: 20px;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid white; /* Separador blanco */
+            margin: 15px 0;
+        }
+
+        /* Estilos de la Galería */
+        .galeria {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .foto {
+            width: 300px;
+            height: auto;
+            border: 3px solid white;
+        }
+
+        /* Estilos del Formulario/Firma */
+        .logo {
+            color: yellow;
+            font-size: 2em;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="main-header">
+        <h1>Nelson Mandela</h1>
+    </header>
+
+    <main>
+        <section class="seccion">
+            <h2>Resumen</h2>
+            <p>Nelson Rolihlahla Mandela, conocido en su país, Sudáfrica, como Madiba, fue un político y abogado sudafricano. Fue presidente de la República de Sudáfrica de 1994 a 1999.</p>
+
+            <div style="font-size: 0.9em; padding-left: 20px;">
+                <p><strong>Nacimiento:</strong> 18 de julio de 1918, Mvezo, Sudáfrica</p>
+                </div>
+        </section>
+
+        <hr>
+
+        <section class="seccion">
+            <h2>Biografía</h2>
+            <p>Nelson Mandela nació el 18 de julio de 1918 en Mvezo, un poblado de 300 habitantes cerca de Umtata, en el Transkei... **(Continuar el texto de la biografía)**</p>
+        </section>
+
+        <hr>
+
+        <section class="seccion">
+            <h2>Fotografías</h2>
+            <div class="galeria">
+                <img src="foto-mandela-1.jpg" alt="Nelson Mandela sonriendo" class="foto">
+                <img src="foto-mandela-2.jpg" alt="Nelson Mandela en blanco y negro" class="foto">
+                <img src="foto-mandela-3.jpg" alt="Nelson Mandela con indumentaria tradicional" class="foto">
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="seccion">
+            <h2>Frases</h2>
+            <ol>
+                <li>"La mayor gloria no es caer, sino levantarse siempre."</li>
+                <li>"Nadie nace odiando a otra persona por el color de su piel..."</li>
+            </ol>
+        </section>
+
+        <hr>
+
+        <section class="seccion">
+            <h2>Firma</h2>
+            <div class="logo">Wands</div>
+
+            <h3 style="color: white; border-bottom: 1px solid white; padding-bottom: 5px; margin-top: 20px;">Opinión</h3>
+            <form>
+                <label style="display: block; margin-bottom: 5px;">Déjanos tu opinión sobre Nelson Mandela:</label>
+                <textarea rows="4" style="width: 100%; background-color: #333; color: white; border: 1px solid white; padding: 10px; box-sizing: border-box;"></textarea>
+
+                <h4 style="margin-top: 10px; color: white;">Valoración</h4>
+                <div style="text-align: center; color: white;">
+                    <span style="color: yellow; margin: 0 5px;">Baja</span> 1 2 3 4 5 6 7 8 9 10 <span style="color: yellow; margin: 0 5px;">Alta</span>
+                </div>
+            </form>
+        </section>
+
+    </main>
+</body>
+</html>
