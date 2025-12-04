@@ -21,20 +21,20 @@
     <table style="background-color: black; width: 60%;">
         <tr>
             <td>
-                <h1 align="center" style="color: white;">Nelson Mandela</h2>
-                    <h4 align="center" style="color: green;">
-                        Resumen
-                        <br>
-                        biografia
-                        <br>
-                        Fotografias
-                        <br>
-                        Frases
-                        <br>
-                        firma
-                        <br>
-                        Opinion
-                    </h4>
+                <h1 style="text-align: center; color: white;">Nelson Mandela</h1>
+                <h4 style="text-align: center; color: green;">
+                    Resumen
+                    <br>
+                    biografia
+                    <br>
+                    Fotografias
+                    <br>
+                    Frases
+                    <br>
+                    firma
+                    <br>
+                    Opinion
+                </h4>
             </td>
         </tr>
     </table>
@@ -47,50 +47,46 @@
 <table style="background-color: rgb(238, 198, 20);">
     <tr>
         <td> fecha de nacimiento:</td>
-        <td colspan="3"> 18 de julio de 1918, Mvezo, Sudáfrica
-            <hr style="border-color: green">
+        <td style="border-bottom: 1px solid green;" colspan="3"> 18 de julio de 1918, Mvezo, Sudáfrica
+
             </hr>
 
         </td>
     </tr>
     <tr>
         <td> fecha de muerte:</td>
-        <td colspan="3"> 5 de diciembre de 2013
-            <hr style="border-color: green">
+        <td style="border-bottom: 1px solid green;" colspan="3"> 5 de diciembre de 2013
             </hr>
         </td>
     </tr>
     <tr>
         <td> hijos:</td>
-        <td colspan="3"> Makaziwe mandela, Zenani Mandela, Makgatho Mandela, Madiba Thembekile Mandela, Zindziswa
-            <hr style="border-color:green">
-        </td>
+        <td style="border-bottom: 1px solid green;" colspan="3"> Makaziwe mandela, Zenani Mandela, Makgatho Mandela,
+            Madiba Thembekile Mandela, Zindziswa
         </td>
     </tr>
     <tr>
         <td>Premios</td>
-        <td colspan="3">Premio nobel de la paz
-            <hr style="border-color: green;">
-        </td>
+        <td style="border-bottom: 1px solid green;" colspan="3">Premio nobel de la paz
         </td>
     </tr>
     <tr>
         <td>Conyugue </td>
-        <td>Gratcha Machel
+        <td style="border-bottom: 1px solid green;">Gratcha Machel
 
         </td>
-        <td>
+        <td style="border-bottom: 1px solid green;">
             Winnie Madikizela
-            >
         </td>
-        <td>
+        <td style="border-bottom: 1px solid green;">
             Evelyn Mase
         </td>
 
     </tr>
 </table>
-
+<br>
 <hr style="border-color: green;">
+
 
 <h2 style="color: green;">Biografia</h2>
 <p>Nelson Mandela nació el 18 de julio de 1918 en Mvezo, un poblado de 300
@@ -130,7 +126,7 @@
 <h2 style="border-color:green"></h2>
 <img style="border-color:grey" src="/assets/img/mandela1.jpg" border="5" alt="">
 <br>
-<img style="width:49%; border-color:grey;" src=/assets/img/mandela2.jpg border="5" alt="">
+<img style="width:43%; border-color:grey;" src="/assets/img/mandela2.jpg" border="5" alt="">
 <br>
 <img style="width:41%; border-color: grey;" src="/assets/img/mandela3.jpg" border="5" alt="">
 <br>
@@ -177,31 +173,30 @@
 <h2 style="color: green;">Opinion</h2>
 <p>envianos una opinion sobre mandela</p>
 <div>
-    <input type="email" name="email" id="email">
+    <input type="email" name="email" id="email" placeholder="escribe aqui tu email">
     <label for="email">escribe aqui tu email</label>
 </div>
-<p>valora la vida de nelson mandela en una escala del 1 al 10</p>
-<table border="1" width="50%" bordercolor="black" style="border-collapse: collapse;">
-    <td>
-        <input type="radio" value="">1
-        <input type="radio" value="">2
-        <input type="radio" value="">3
-        <input type="radio" value="">4
-        <input type="radio" value="">5
-        <input type="radio" value="">6
-        <input type="radio" value="">7
-        <input type="radio" value="">8
-        <input type="radio" value="">9
-        <input type="radio" value="">10
-        <tr>
+<br>
+<fieldset style="color: black;">
+    <legend>valora la vida de nelson mandela en una escala del 1 al 10</legend>
 
-        </tr>
-    </td>
-</table>
+    <input type="radio" value="">1
+    <input type="radio" value="">2
+    <input type="radio" value="">3
+    <input type="radio" value="">4
+    <input type="radio" value="">5
+    <input type="radio" value="">6
+    <input type="radio" value="">7
+    <input type="radio" value="">8
+    <input type="radio" value="">9
+    <input type="radio" value="">10
+    <p></p>
+</fieldset>
 <p>Opinion</p>
 <div>
-    <input type="text" name="texto" id="texto" style="width: 300px; height: 100px;">
-    <label for="texto">escribe aqui tu opinion</label>
+    <input type="text" name="texto" id="texto" placeholder="escribe aqui tu opinion"
+        style="width: 300px; height: 100px;">
+    <label for="texto"></label>
 </div>
 
 </html>

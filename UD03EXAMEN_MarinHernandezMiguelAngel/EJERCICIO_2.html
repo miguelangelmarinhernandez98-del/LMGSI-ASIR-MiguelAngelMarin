@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esto es una descripción" />
+    <meta name="keywords" content="palabra1, palabra2, palabra3" />
+    <meta name="author" content="Nombre" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Formulario Examen HTML5</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Rellenar</legend>
+        <form action="insertar_cv.html" method="get">
+            <label for="sexo">Sexo:</label>
+            <select name="sexo" id="sexo">
+                <option value="hombre">Hombre</option>
+                <option value="mujer">Mujer</option>
+            </select>
+            <br>
+            <label for="color">Elija un Color:</label>
+            <input type="color" id="color" name="color" value="#fffff">
+            <br>
+            <label for="fecha">Elija una Fecha:</label>
+            <input type="date" id="fecha" name="fecha">
+            <br>
+            <input type="radio" name="lenguaje" value="lenguajejava">Java
+            <input type="radio" name="lenguaje" value="lenguajepython">Python
+            <input type="radio" name="lenguaje" value="lenguajehtml">HTML
+            <input type="radio" name="lenguaje" value="lenguajevisual_basic">Visual Basic
+            <input type="radio" name="lenguaje" value="lenguajecss">CSS
+            <br>
+            <label for="sexo" value="sexohombre"></label>
+            <input type="checkbox" name="sexo" value="sexohombre">Hombre
+            <input type="checkbox" name="sexo" value="sexomujer">Mujer
+            <br>
+            <label for="archivos"></label>
+            Elija un archivo: <input type="file" id="archivos" name="archivos" multiple>
+            <br>
+            <textarea name="comentarios" rows="8" cols="60" placeholder="Por favor, escriba aqui"></textarea>
+            <br>
+            <label for="instituto"></label>
+            Instituto <input type="text" id="instituto" name="instituto">
+            <label for="Estudios elegidos"></label>
+            <br>
+            Estudios elegidos <input type="text" id="Estudios elegidos" name="Estudios">
+            <label for="Nombre"></label>
+            <br>
+            Nombre <input type="text" id="Nombre" name="Nombre">
+            <label for="Apellido"></label>
+            <br>
+            Apellidos <input type="text" id="Apellido" name="Apellido">
+            <label for="email"></label>
+            <br>
+            Email <input type="email" id="email" name="email">
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Rellene las opciones siguientes</legend>
+        <input type="checkbox" name="windows" value="windows">Windows
+        <input type="checkbox" name="mac" value="mac">mac
+        <input type="checkbox" name="linux" value="linux">linux
+        <label for="hora"></label>
+        <br>
+        Elija una hora <input type="time" id="hora" name="hora">
+        <br>
+        <input type="checkbox" name="amd" value="amd">AMD
+        <input type="checkbox" name="intel_i5" value="intel_i5">Intel i5
+        <input type="checkbox" name="intel_i7" value="intel_i7">Intel i7
+        <br>
+        Elija un archivo <input type="file" id="documento" name="documento" multiple>
+
+
+
+
+
+    </fieldset>
+    <br>
+    <br>
+    <br>
+    <br>
+    <input type="submit" value="Enviar formulario"><input type="submit" value="Borrar los datos introducidos">
+</body>
+
+</html>
