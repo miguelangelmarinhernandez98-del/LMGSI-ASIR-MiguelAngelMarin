@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="application-name" content="">
+    <meta name="generator" content="VSCode">
+</head>
+
+<body background="/assets/img/Proyecto nuevo.png">
+    <br>
+    <br>
+    <center>
+        <!--Este es el fondo de la página web-->
+        <table background="/assets/img/istockphoto-1639475440-612x612.jpg" border="5" cellpadding="40"
+            width="82%"
+            style="border-color: brown; border-style: dashed; background-size:200%; border-collapse: collapse;">
+            <td>
+                <!--Sección del formulario/hoja de reclamaciones-->
+                <fieldset style="border-color: brown; border-style: dashed;">
+                    <legend>Rellenar</legend>
+                    <form action="insertar_cv.html" method="get">
+                        Por favor, rellene el siguiente formulario contandonos sobre su experiencia con nuestros
+                        productos.
+                        <br>
+                        <textarea name="comentarios" rows="8" cols="60"
+                            placeholder="Por favor, escriba aqui"></textarea>
+                        <br>
+                        <br>
+                        Nombre <input type="text" id="Nombre" name="Nombre">
+                        <label for="Apellido"></label>
+                        <br>
+                        <br>
+                        Apellidos <input type="text" id="Apellido" name="Apellido">
+                        <label for="email"></label>
+                        <br>
+                        <br>
+                        Email <input type="email" id="email" name="email">
+                        <br>
+                        <br>
+                    </form>
+                </fieldset>
+                <fieldset style="border-color: brown; border-style: dashed;">
+                    <legend>Volverías a comprar en nuestra empresa?</legend>
+                    <form action="insertar_cv.html">
+                        <input type="checkbox" name="si" value="si">Si
+                        <input type="checkbox" name="no" value="no">No
+                        <br>
+                    </form>
+
+                </fieldset>
+                <br>
+                <br>
+                <input type="submit" value="Enviar reclamación"><input type="submit"
+                    value="Borrar los datos introducidos">
+                <br>
+                <br>
+                <a href="/index.html">Volver a la página de inicio</a>
+            </td>
+        </table>
+    </center>
+    <br>
+    <br>
+    <br>
+
+</body>
+
+</html>
