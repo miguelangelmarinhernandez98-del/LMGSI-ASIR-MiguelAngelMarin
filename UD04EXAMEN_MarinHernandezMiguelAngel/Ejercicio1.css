@@ -1,0 +1,39 @@
+.contenedor-principal {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.azul-claro {
+    background-color: #6dc9f3;
+    width: 40%;
+    height: 130%;
+    padding: 20px;
+}
+
+p {
+    font-size: 130%;
+    font: homemade apple, sans-serif;
+
+}
+
+.amarillo-claro {
+    background-color: #f3e36d;
+    grid-column: 2;
+    grid-row: 1;
+    width: 40%;
+    height: 130%;
+    padding: 20px;
+}
+
+.amarilla {
+    background-color: #ffb0b0;
+    width: 100%;
+    height: 550%;
+    padding: 20px;
+}
