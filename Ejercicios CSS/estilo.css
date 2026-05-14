@@ -1,0 +1,134 @@
+/* Configuración básica de la página */
+body {
+    background-color: #000;
+    /* Fondo negro como en la imagen */
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+/* Contenedor del mosaico */
+.contenedor-principal {
+    display: grid;
+    grid-template-columns: 280px 150px 150px 280px;
+    /* Definición de columnas */
+    grid-template-rows: repeat(6, auto);
+    /* Definición de filas */
+    gap: 15px;
+    /* Espacio negro entre bloques */
+    max-width: 900px;
+    background-color: #000;
+}
+
+/* Estilos comunes para los bloques */
+.bloque {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.autor {
+    margin-top: 15px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Colores basados en la imagen */
+.azul-claro {
+    background-color: #a4c2f4;
+}
+
+.azul-oscuro {
+    background-color: #3d85c6;
+    color: black;
+}
+
+.rojo {
+    background-color: #ff0000;
+    color: #440000;
+}
+
+.amarillo {
+    background-color: #ffff00;
+}
+
+.rosa {
+    background-color: #f4cccc;
+}
+
+/* Posicionamiento específico (Grid Spanning) */
+.kubler {
+    grid-column: 1;
+    grid-row: 1 / 4;
+}
+
+.amarillo-top {
+    grid-column: 2;
+    grid-row: 1;
+    height: 100px;
+}
+
+.rojo-centro {
+    grid-column: 2;
+    grid-row: 2 / 4;
+}
+
+.rosa-top {
+    grid-column: 3 / 5;
+    grid-row: 1 / 3;
+}
+
+.proverbio {
+    grid-column: 3 / 5;
+    grid-row: 3 / 4;
+}
+
+.monroe {
+    grid-column: 1;
+    grid-row: 4 / 6;
+}
+
+.socrates {
+    grid-column: 3;
+    grid-row:  / 6;
+    writing-mode: vertical-rl;
+    /* Texto vertical como en la imagen */
+    text-orientation: mixed;
+    transform: rotate(180deg);
+}
+
+.amarillo-derecha {
+    grid-column: 4;
+    grid-row: 5 / 7;
+}
+
+.amarillo-bottom-izq {
+    grid-column: 1;
+    grid-row: 6;
+    height: 100px;
+}
+
+.coolidge {
+    grid-column: 2 / 5;
+    grid-row: 5;
+}
+
+.azul-bottom {
+    grid-column: 2;
+    grid-row: 6;
+}
+
+.wilde {
+    grid-column: 4;
+    grid-row: 6;
+}
+
+/* Ajustes de texto vertical para Socrates */
+.texto-vertical {
+    font-size: 1.1em;
+    margin: 0;
+}

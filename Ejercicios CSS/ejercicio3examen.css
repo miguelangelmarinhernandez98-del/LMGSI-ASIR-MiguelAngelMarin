@@ -1,0 +1,87 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.escenario {
+    position: relative; /* Contenedor padre para los hijos absolutos */
+    width: 600px;
+    height: 600px;
+}
+
+/* Estilo común para las "hojas" del menú */
+.capa {
+    position: absolute;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h2 {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 5px 15px;
+    border: 2px dotted white; /* El borde punteado de la imagen */
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ul ul {
+    list-style-type: circle;
+    margin-top: 5px;
+}
+
+/* --- POSICIONAMIENTO Y COLORES ESPECÍFICOS --- */
+
+.decoracion-atras {
+    background-color: #933a82; /* Morado oscuro */
+    width: 250px;
+    height: 300px;
+    top: 0;
+    left: 150px;
+    z-index: 1;
+}
+
+.papas {
+    background-color: #9b7a8d; /* Morado grisáceo */
+    width: 250px;
+    height: 350px;
+    top: 100px;
+    left: 50px;
+    z-index: 2;
+}
+
+.bocadillos {
+    background-color: #a05d8b; /* Morado medio */
+    width: 270px;
+    height: 350px;
+    top: 50px;
+    left: 350px;
+    z-index: 3;
+}
+
+.bebidas {
+    background-color: #9ba088; /* Verde grisáceo */
+    width: 250px;
+    height: 350px;
+    top: 250px;
+    left: 280px;
+    z-index: 4; /* El valor más alto para estar arriba de todos */
+}
+
+.decoracion-derecha {
+    background-color: #96ad8d; /* Verde claro */
+    width: 200px;
+    height: 100px;
+    top: 330px;
+    left: 500px;
+    z-index: 0; /* Por detrás de todos */
+}

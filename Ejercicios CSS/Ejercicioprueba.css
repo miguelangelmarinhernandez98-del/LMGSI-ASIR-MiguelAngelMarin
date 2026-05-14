@@ -1,0 +1,20 @@
+.contenedor-principal {
+    display: grid;
+    grid-template-columns: 280px 150px 150px 280px;
+    grid-template-rows: repeat(6, auto);
+    gap: 15px;
+    max-width: 900px;
+    background-color: black;
+}
+.bloque {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.amarillo-top {
+    grid-column: 2;
+    grid-row: 1;
+    height: 100px;
+}
