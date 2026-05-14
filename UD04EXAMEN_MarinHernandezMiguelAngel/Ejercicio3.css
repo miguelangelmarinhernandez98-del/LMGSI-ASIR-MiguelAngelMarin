@@ -14,17 +14,16 @@ body {
 
 .caja {
     position: absolute;
-    padding: 20px;
+    padding: 22px;
     box-sizing: border-box;
 }
 
 h2 {
     background-color: black;
     color: white;
-    padding: 5px 15px;
-    border: 2px dotted white;
-
-    margin-bottom: 15px;
+    padding: 4px 13px;
+    border: 2.5px dotted white;
+    margin-bottom: 13px;
     font-size: 1.2rem;
 }
 
@@ -40,7 +39,7 @@ ul ul {
     background-color: #9b3087;
     width: 250px;
     height: 300px;
-    top: 0;
+    ;
     left: 175px;
     z-index: 1;
 }
@@ -73,12 +72,10 @@ ul ul {
 
 }
 
-.caja.decoracion-derecha {
+.caja.verde-derecha {
     background-color: #809c75;
     width: 200px;
     height: 100px;
     top: 350px;
     left: 500px;
-    z-index: 0;
-
 }
